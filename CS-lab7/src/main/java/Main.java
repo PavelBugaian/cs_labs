@@ -4,11 +4,6 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
-/**
- * @author Beatrice V.
- * @created 28.10.2020 - 16:21
- * @project Lab7
- */
 public class Main {
     public static void main(String[] args) {
         // Creating a Mongo client

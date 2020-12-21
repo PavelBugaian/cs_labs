@@ -1,8 +1,3 @@
-/**
- * @author Beatrice V.
- * @created 28.10.2020 - 13:39
- * @project Lab7
- */
 import br.ufrgs.rmpestano.rsa.Encryption;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
