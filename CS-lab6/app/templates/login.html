@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+ {% block content %}
+ <div class="row">
+     <div class="col-md-8 mx-auto social-container my-2 order-md-1">
+           <button class="btn btn-danger  mb-2" style="background-color: #6610f2;">
+             <a href="{% url 'discord_login' %}">Discord</a>
+         </button>
+           <button class="btn btn-danger  mb-2" style="background-color: #007bff;">
+             <a>Facebook</a>
+         </button>
+           <button class="btn btn-danger  mb-2" style="background-color: #20c997;">
+             <a>Gmail</a>
+         </button>
+           <button class="btn btn-info mb-2" style="background-color: #1A74ED;">
+             <a href="{% url 'bitbucket_login' %}">BitBucket</a>
+         </button>
+         <button class="btn btn-danger  mb-2" style="background-color: #6c757d;">
+             <a>Github</a>
+         </button>
+         <button class="btn btn-primary mb-2" style="background-color: #fd7e14;">
+             <a href="{% url 'mail_login' %}">@Mail.ru</a>
+         </button>
+     </div>
+ </div>
+ </div>
+ {% endblock %}
